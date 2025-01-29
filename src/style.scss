@@ -1,0 +1,41 @@
+#app {
+  font-family: 'Formular', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(57, 65, 85, 1);
+  margin-top: 60px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-family: 'Formular';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+
+  &-primary {
+      background: linear-gradient(90.66deg, #3CB9A0 0.57%, #1786AC 99.43%);
+      color: white;
+  }
+
+  &-secondary {
+      border: 1px solid;
+      background: linear-gradient(90deg, #E6F7F5 0%, #F8FCFC 100%);
+      border-color: #BEE2E0;
+      color: black;
+  }
+
+  &-close {
+      background-color: #dc3545;
+      color: white;
+  }
+}
