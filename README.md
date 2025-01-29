@@ -9,10 +9,10 @@ Run develop mode
 ================================================
 
 MockAPI return object in RatingComponent
-{
+`{
     rating (type: Number)
     reviewsCount (type: Number)
-}
+}`
 
 Then this component dynamically add stars, basic on rating value.
 
